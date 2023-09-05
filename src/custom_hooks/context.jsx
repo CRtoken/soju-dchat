@@ -45,7 +45,7 @@ const fetchData = async (query) => {
 /** Gun JS **/
 import Gun from "gun";
 import "gun/sea";
-const gun = Gun(["https://dapp-chat.onrender.com/gun"]);
+const gun = Gun(["https://soju-dchat.onrender.com/gun"]);
 
 const encryption = async (message, action) => {
   try {
